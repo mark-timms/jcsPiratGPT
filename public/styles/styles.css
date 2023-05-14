@@ -1,0 +1,45 @@
+/* Adjustments for mobile devices */
+
+/* Adjust body font size, line height and colors for better readability on mobile devices */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff; /* white text */
+    background-color: #343541; /* dark grey background */
+}
+
+/* Center align the greeting */
+.greeting {
+    text-align: center;
+    color: #10a37f; /* blue text */
+}
+
+/* Adjust chat box height for mobile devices */
+.chat-box {
+    min-height: 200px; /* Adjust min-height as per your preference */
+    max-height: 90vh; /* Adjust max-height as per your preference */
+    border: 1px solid #202123; /* lighter grey border */
+    padding: 10px;
+    margin: 10px 0;
+    overflow-y: auto;
+    background-color: #444654; /* lighter grey background */
+    color: #ffffff; /* white text */
+    border: #d9d9e3;
+}
+
+/* Adjust form layout for mobile devices */
+#form {
+    display: flex;
+    flex-direction: column; /* Stack input elements vertically */
+    align-items: center; /* Center align the form elements */
+}
+
+/* Adjust user input width and margin for mobile devices */
+#user-input {
+    width: 100%; /* Fill the available width */
+    margin-bottom: 10px; /* Add spacing between inputs */
+    background-color: #444654; /* lighter grey background */
+    color: #ffffff; /* white text */
+    border: 1px solid #2b2b2b; /* lighter grey border */
+}
