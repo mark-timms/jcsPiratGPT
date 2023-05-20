@@ -27,8 +27,8 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-app.listen(process.env.PORT || 3000, () => {
-  console.log(`Server started on port ${process.env.PORT || 3000}`);
+app.listen(process.env.PORT || 3001, () => {
+  console.log(`Server started on port ${process.env.PORT || 3001}`);
 });
 
 const chatSchema = new mongoose.Schema({
